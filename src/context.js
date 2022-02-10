@@ -17,10 +17,10 @@ export const AppProvider = ({children}) => {
     }
 
     const openSubmenu = () => {
-        setIsModalOpen(true);
+        setIsSubmenuOpen(true);
     }
     const closeSubmenu = () => {
-        setIsSidebarOpen(false);
+        setIsSubmenuOpen(false);
     }
 
     return <AppContext.Provider value={{
